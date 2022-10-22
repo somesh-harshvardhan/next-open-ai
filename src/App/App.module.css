@@ -1,0 +1,42 @@
+.appContainer{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.questionContainer p{
+font-size: 3rem;
+font-weight: 700;
+margin-bottom: 30px;
+}
+.questionInputContainer{
+    display: flex;
+    gap: 20px;
+
+}
+.questionInputContainer label{
+    font-size: 2rem;
+    font-weight: 500;
+}
+.questionInputContainer input {
+    flex: 1;
+    border: none;
+    border-bottom: 1px solid black;
+    outline: none;
+    padding: 5px 0;
+    font-size: 2rem;
+
+}
+.answerContainer{
+    margin-top: 20px;
+    font-size: 2rem;
+}
+.search button{
+    font-size: 2rem;
+    background-color: black;
+    color: white;
+    padding: 4px 8px;
+    margin-top: 30px;
+    cursor: pointer;
+}
